@@ -1,9 +1,7 @@
-Google Homepage (The Odin project proposed project)
-
-About project
-
-A reposiroty containing The Odin Project foundations exercise "Google homepage clone". The purpose of the exercise is to get the feet wet designing something relatively simple, but with enough moving parts. Their tip list and guide includes:
-Easy version (paraphrased):
+#Google Homepage (The Odin project proposed project)  
+##About project  
+A reposiroty containing The Odin Project foundations exercise "Google homepage clone". The purpose of the exercise is to get the feet wet designing something relatively simple, but with enough moving parts. Their tip list and guide includes:  
+###Easy version (paraphrased):  
 1. Tips:
 	* Don't be a perfectionist, it will be hard as it is to try to make a pixel perfect copy. For the same reason ignore dropdown menus, form submissions and hover-highlighting, though this last one shouldn't be too hard to do
 	* Use Google when you run into roadblocks (duh, who would have guessed)
@@ -15,15 +13,15 @@ Easy version (paraphrased):
 1. Next do the navbar across top, first content then styles to position it. [How to build an horizontal CSS navbar](http://www.w3schools.com/css/css_navbar.asp)
 1. Finally repeat what you did for the navar to make the footer since it is quite similar.
 1. Do try not to rely on the use of the Developer Tools to help you out unless it is the last resource you do have left. The point of the exercise is for me to code and put my brain through the gutter, not to make another tool to code for me so to speak
-1. Learn to use git command tools by making changes, implementing webpage features then commiting to a Github repository (You are in said Github repository)
-Difficult version (paraphrased):
+1. Learn to use git command tools by making changes, implementing webpage features then commiting to a Github repository (You are in said Github repository)  
+### Difficult version (paraphrased):
 Simply put, reuse previous points and code to build a Google search result page.
 * Don't worry about what was discussed on the Easy version about being a perfectionist, plus the issue of hard coding the search results. Just hard code said results and be done with it.
 * Focus on the placement and the order of items.
-* Using the developer tools will be hard due to the code being minified (reduces file size at the cost of shortening unnecesary characters and names for fast load tiomes.
+* Using the developer tools will be hard due to the code being minified (reduces file size at the cost of shortening unnecesary characters and names for fast load tiomes.  
 Viewing the project
 
-Since it is a simple project, Github allowing publishing web projects do help tremendously, by the virtue I am already putting everything in Github for one, and for two, it comes at the fantastic price of free :grin:
+Since it is a simple project, Github allowing publishing web projects do help tremendously, by the virtue I am already putting everything in Github for one, and for two, it comes at the fantastic price of free :grin:  
 Extra suggested resources
 
 * It is normal to feel overwhelmed due to a shallow and/or shaky foundation of HTML and CSS (duh, you are learning for one). Go back to the learning materials as much as you need.
