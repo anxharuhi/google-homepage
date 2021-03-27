@@ -1,0 +1,42 @@
+/* Tag classes */
+body {
+    margin: 1rem 1rem 1rem 1rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+}
+
+header>ul>li {
+    list-style-type: none;
+}
+
+footer>ul>li {
+    list-style-type: none;
+}
+
+/* General purpose classes */
+
+.align-center-text{
+    text-align: center;
+}
+
+.align-right-text{
+    text-align: right;
+}
+
+/* Header classes */
+
+.header-flex {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+.header-list-box {
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+/* Body classes */
+
+/* Footer classes */
+
+/* Around 700 pixels expand the footer */
