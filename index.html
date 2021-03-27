@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/core.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body class="body-flex">
     <header class="align-right-text general-box">
@@ -20,9 +21,9 @@
         </ul>
     </header>
     <main class="align-center-text general-box"> 
-        <img src="img/logo.png" alt="NotGoogle website logo" >
-        <form action="./index.html" method="post">
-            <p><input type="text" name="search_box" id="search_box" size=50/></p>
+        <img src="img/logo.png" alt="NotGoogle website logo" class="logo">
+        <form action="./index.html" method="post" class="form">
+            <p><div class='search-box'>Magnifying Glass<input type="text" name="search_box" id="search_box" size=30/>Microphone</div></p>
             <p><input type="submit" value="Search with NotGoogle"/>
             <input type="submit" value="I'm Feeling Lucky"/></p>
         </form>

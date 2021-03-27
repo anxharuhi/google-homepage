@@ -37,6 +37,33 @@ footer>ul>li {
     display: flex;
     flex-flow: column wrap;
     justify-content: space-between;
+    align-items: stretch;
+}
+
+.logo {
+    margin: 0 0 1rem 0;
+}
+
+.form {
+    margin: 1rem 0 0 0;
+}
+
+.form>p {
+    margin: 1rem;
+}
+
+#search_box {
+    border-style: hidden;
+}
+
+.search-box {
+    border:2px;
+    border-style:solid;
+    border-color: whitesmoke;
+    border-radius: 2rem;
+    width: 40%;
+    margin: auto;
+    padding: 0.75rem;
 }
 
 /* Header classes */
