@@ -36,7 +36,7 @@ footer>ul>li {
 
 .body-flex {
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column nowrap;
     justify-content: space-between;
     align-items: stretch;
 }
@@ -45,13 +45,13 @@ footer>ul>li {
 
 .header-flex {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-end;
 }
 
 .header-list-box {
     margin-top:auto;
-    padding: 1rem 0.5rem 1rem 0.5rem;
+    padding: 0rem 0.5rem 1rem 0.5rem;
 }
 
 .header-list-box.icon-padding {
@@ -61,13 +61,21 @@ footer>ul>li {
 
 /* Main classes */
 
+.main-flex {
+    flex-grow: 1;
+    /* Another case of no clue why this value works fine for it's purpose*/
+    /* It does give a good effect on resize, even if it is not pixxel perfect*/
+    /* For now I'm quitting while I'm ahead*/
+    margin-top: 10.75rem; 
+}
+
 .logo {
     margin: 0 0 1rem 0;
 }
 
 .form-flex{
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: stretch;
     margin: 1rem 0 0 0;
@@ -87,7 +95,8 @@ footer>ul>li {
     border-style:solid;
     border-color: whitesmoke;
     border-radius: 2rem;
-    width: 40%;
+    max-width: 90%;
+    width: 55%;
     margin: auto;
     padding: 0.8rem;
     display: flex;
@@ -108,13 +117,13 @@ footer>ul>li {
 
 .footer-flex-left {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-start;
 }
 
 .footer-flex-right {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     justify-content: flex-end;
 }
 
