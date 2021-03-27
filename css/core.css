@@ -1,9 +1,12 @@
 /* Tag classes */
+html {
+    height: 100%;
+}
 body {
-    
     font-family: 'Roboto', sans-serif;
     font-size: .875rem;
     background-color: white;
+    height: 99%;
 }
 
 header>ul>li {
@@ -28,11 +31,19 @@ footer>ul>li {
     padding: 1rem 1rem 1rem 1rem;
 }
 
+/* Body classes */
+
+.body-flex {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+
 /* Header classes */
 
 .header-flex {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: flex-end;
 }
 
@@ -40,29 +51,30 @@ footer>ul>li {
     padding: 0 0.5rem 0 0.5rem;
 }
 
-/* Body classes */
+/* Main classes */
 
 /* Footer classes */
 
 .footer {
-    background-color: lightgray;
+    background-color: whitesmoke;
+    color: rgba(0, 0, 0, 0.7)
 }
 
 .footer-flex {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: space-between;
 }
 
 .footer-flex-left {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: flex-start;
 }
 
 .footer-flex-right {
     display: flex;
-    flex-flow: row;
+    flex-flow: row wrap;
     justify-content: flex-end;
 }
 
