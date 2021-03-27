@@ -6,7 +6,8 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: .875rem;
     background-color: white;
-    height: 99%;
+    height: 100%;
+    color: slategray;
 }
 
 header>ul>li {
@@ -40,32 +41,6 @@ footer>ul>li {
     align-items: stretch;
 }
 
-.logo {
-    margin: 0 0 1rem 0;
-}
-
-.form {
-    margin: 1rem 0 0 0;
-}
-
-.form>p {
-    margin: 1rem;
-}
-
-#search_box {
-    border-style: hidden;
-}
-
-.search-box {
-    border:2px;
-    border-style:solid;
-    border-color: whitesmoke;
-    border-radius: 2rem;
-    width: 40%;
-    margin: auto;
-    padding: 0.75rem;
-}
-
 /* Header classes */
 
 .header-flex {
@@ -75,10 +50,48 @@ footer>ul>li {
 }
 
 .header-list-box {
-    padding: 0 0.5rem 0 0.5rem;
+    margin-top:auto;
+    padding: 1rem 0.5rem 1rem 0.5rem;
+}
+
+.header-list-box.icon-padding {
+    /* Not sure why it works this way, to center the icon, but it does*/
+    padding-bottom: 0.6rem; 
 }
 
 /* Main classes */
+
+.logo {
+    margin: 0 0 1rem 0;
+}
+
+.form-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    margin: 1rem 0 0 0;
+}
+
+.form>p {
+    margin: 1rem;
+}
+
+#search_box {
+    border-style: hidden;
+    flex-grow: 1;
+}
+
+.search-box {
+    border:2px;
+    border-style:solid;
+    border-color: whitesmoke;
+    border-radius: 2rem;
+    width: 40%;
+    margin: auto;
+    padding: 0.8rem;
+    display: flex;
+}
 
 /* Footer classes */
 
@@ -108,5 +121,10 @@ footer>ul>li {
 .footer-list-box {
     padding: 0 0.5rem 0 0.5rem;
 }
+
+/* Material icons rules */
+.material-icons.md-18 { font-size: 18px;}
+.material-icons.md-18 { font-size: 24px;}
+.material-icons.md-box { padding: 0 0.5rem 0 0.5rem;}
 
 /* Around 700 pixels expand the footer */

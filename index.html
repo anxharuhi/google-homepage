@@ -9,21 +9,25 @@
     <link rel="stylesheet" href="css/core.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body class="body-flex">
     <header class="align-right-text general-box">
         <ul class="header-flex">
             <li class="header-list-box">Gmail</li>
             <li class="header-list-box">Images</li>
-            <li class="header-list-box">Hamburger</li>
+            <li class="header-list-box icon-padding"><span class="material-icons md-24 md-apps">apps</span></li>
             <li class="header-list-box">Profile</li>
         </ul>
     </header>
     <main class="align-center-text general-box"> 
         <img src="img/logo.png" alt="NotGoogle website logo" class="logo">
         <form action="./index.html" method="post" class="form">
-            <p><div class='search-box'>Magnifying Glass<input type="text" name="search_box" id="search_box" size=30/>Microphone</div></p>
+            <p><div class='search-box'>
+                <span class="material-icons md-18 md-box">search</span>
+                <input type="text" name="search_box" id="search_box" size=30/>
+                <span class="material-icons md-18 md-box">mic</span>
+            </div></p>
             <p><input type="submit" value="Search with NotGoogle"/>
             <input type="submit" value="I'm Feeling Lucky"/></p>
         </form>
