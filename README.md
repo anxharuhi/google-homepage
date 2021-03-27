@@ -31,4 +31,4 @@ Since it is a simple project, Github allowing publishing web projects do help tr
 	* The official [Github.io](https://try.github.io) website with both, learn by reading (handbook and cheat sheets) and doing (practical, step-by-step tutorials on specific actions)
 	* [Readwrite's article "Github for beginners: Don't get scared, get started"](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) While it dates from 2013, compared to this document redaction date of 2021, it is stil filled with a lot of beginner's info and, more importantly, nomenglature and git specific commands, which helps to find what command do you want to use in a specific moment. Kinda like a supercharged cheatsheet.
 
-[You can check this website on github.io pages by clicking this lins](https://llomellamomario.github.io/google-homepage/)
+[You can check this website on github.io pages by clicking this link](https://llomellamomario.github.io/google-homepage/)
