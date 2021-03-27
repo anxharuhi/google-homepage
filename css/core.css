@@ -88,6 +88,12 @@ footer>ul>li {
 #search_box {
     border-style: hidden;
     flex-grow: 1;
+    font-size: 1.125rem;
+}
+
+input#search_box:focus {
+    /* No clue on why for focus is outline, while for normal is border-style, it seems inconsistent. */
+    outline: none;
 }
 
 .search-box {
