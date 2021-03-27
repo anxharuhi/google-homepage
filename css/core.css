@@ -1,8 +1,9 @@
 /* Tag classes */
 body {
-    margin: 1rem 1rem 1rem 1rem;
+    
     font-family: 'Roboto', sans-serif;
     font-size: .875rem;
+    background-color: white;
 }
 
 header>ul>li {
@@ -23,6 +24,10 @@ footer>ul>li {
     text-align: right;
 }
 
+.general-box {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
 /* Header classes */
 
 .header-flex {
@@ -38,5 +43,31 @@ footer>ul>li {
 /* Body classes */
 
 /* Footer classes */
+
+.footer {
+    background-color: lightgray;
+}
+
+.footer-flex {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.footer-flex-left {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+}
+
+.footer-flex-right {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+}
+
+.footer-list-box {
+    padding: 0 0.5rem 0 0.5rem;
+}
 
 /* Around 700 pixels expand the footer */

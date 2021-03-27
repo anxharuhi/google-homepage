@@ -5,12 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/core.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="align-right-text ">
+    <header class="align-right-text general-box">
         <ul class="header-flex">
             <li class="header-list-box">Gmail</li>
             <li class="header-list-box">Images</li>
@@ -18,7 +19,7 @@
             <li class="header-list-box">Profile</li>
         </ul>
     </header>
-    <main class="align-center-text"> 
+    <main class="align-center-text general-box"> 
         <img src="img/logo.png" alt="NotGoogle website logo" >
         <form action="./index.html" method="post">
             <p><input type="text" name="search_box" id="search_box" size=50/></p>
@@ -26,8 +27,18 @@
             <input type="submit" value="I'm Feeling Lucky"/></p>
         </form>
     </main>
-    <footer>
-        Footer test
+    <footer class="footer footer-flex general-box">
+        <ul class="footer-flex-left footer">
+            <li class="footer-list-box">About</li>
+            <li class="footer-list-box">Advertising</li>
+            <li class="footer-list-box">Business</li>
+            <li class="footer-list-box">How Search works</li>
+        </ul>
+        <ul class="footer-flex-right">
+            <li class="footer-list-box">Privacy</li>
+            <li class="footer-list-box">Terms</li>
+            <li class="footer-list-box">Settings</li>
+        </ul>
     </footer>
 </body>
 </html>
