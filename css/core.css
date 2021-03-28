@@ -101,8 +101,8 @@ input#search_box:focus {
     border-style:solid;
     border-color: whitesmoke;
     border-radius: 2rem;
-    max-width: 90%;
-    width: 55%;
+    min-width: 400px;
+    width: 45%;
     margin: auto;
     padding: 0.8rem;
     display: flex;
