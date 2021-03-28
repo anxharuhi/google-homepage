@@ -3,7 +3,7 @@ html {
     height: 100%;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: .875rem;
     background-color: white;
     height: 100%;
@@ -50,14 +50,32 @@ footer>ul>li {
 }
 
 .header-list-box {
-    margin-top:auto;
-    padding: 0rem 0.5rem 1rem 0.5rem;
+    /* margin-top:auto; */
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+    height: 1rem;
+    color:black;
 }
 
 .header-list-box.icon-padding {
-    /* Not sure why it works this way, to center the icon, but it does*/
-    padding-bottom: 0.6rem; 
+    /* Now I do: the icon "centerline" is aligned to the topmost part. As such, to center it,
+    it only needs half the margin to aim for that proper centerline.*/
+    margin-top: 0.25rem;
+} 
+
+.sign-in {
+    background-color: rgb(57, 143, 241);
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 3px;
 }
+
+.sign-in>a {
+    color: white;
+    text-decoration: none;
+}
+
+
 
 /* Main classes */
 
@@ -66,13 +84,13 @@ footer>ul>li {
     /* Another case of no clue why this value works fine for it's purpose*/
     /* It does give a good effect on resize, even if it is not pixxel perfect*/
     /* For now I'm quitting while I'm ahead*/
-    margin-top: 10.75rem; 
+    margin-top: 8.75rem; 
     /* Probably this is a candidate to make another flex, with bottom weight so 
        so it can dynamically grow and shrink as it seets fit */
 }
 
 .logo {
-    margin: 0 0 1rem 0;
+    margin: 0 0 0.5rem 0;
 }
 
 .form-flex{
@@ -102,12 +120,31 @@ input#search_box:focus {
     border: 2px;
     border-style: solid;
     border-color: whitesmoke;
+    background-color: white;
     border-radius: 2rem;
-    min-width: 400px;
+    min-width: 350px;
     width: 45%;
     margin: auto;
     padding: 0.8rem;
     display: flex;
+}
+
+.search-button {
+    background-color: whitesmoke;
+    margin: 0.5rem 0.2rem 0 0.2rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    color:rgba(0, 0, 0, 0.8);
+    font-size: .85rem;
+}
+
+.search-button:hover {
+    border-color: lightgray;
+}
+
+.search-button:focus {
+    border-color: skyblue;
 }
 
 /* Footer classes */
@@ -158,5 +195,3 @@ input#search_box:focus {
 .material-icons.md-18 { font-size: 18px;}
 .material-icons.md-18 { font-size: 24px;}
 .material-icons.md-box { padding: 0 0.5rem 0 0.5rem;}
-
-/* Around 700 pixels expand the footer */
