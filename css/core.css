@@ -3,7 +3,7 @@ html {
     height: 100%;
 }
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial', sans-serif;
     font-size: .875rem;
     background-color: white;
     height: 100%;
@@ -50,15 +50,31 @@ footer>ul>li {
 }
 
 .header-list-box {
-    margin-top:auto;
-    padding: 0rem 0.5rem 1rem 0.5rem;
+    /* margin-top:auto; */
+    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
+    margin-top: 0.5rem;
+    height: 1rem;
     color:black;
 }
 
 .header-list-box.icon-padding {
-    /* Not sure why it works this way, to center the icon, but it does*/
-    padding-bottom: 0.6rem; 
+    /* Now I do: the icon "centerline" is aligned to the topmost part. As such, to center it,
+    it only needs half the margin to aim for that proper centerline.*/
+    margin-top: 0.25rem;
+} 
+
+.sign-in {
+    background-color: rgb(57, 143, 241);
+    font-weight: bold;
+    font-style: normal;
+    border-radius: 3px;
 }
+
+.sign-in>a {
+    color: white;
+    text-decoration: none;
+}
+
 
 
 /* Main classes */
@@ -68,7 +84,7 @@ footer>ul>li {
     /* Another case of no clue why this value works fine for it's purpose*/
     /* It does give a good effect on resize, even if it is not pixxel perfect*/
     /* For now I'm quitting while I'm ahead*/
-    margin-top: 10.75rem; 
+    margin-top: 8.75rem; 
     /* Probably this is a candidate to make another flex, with bottom weight so 
        so it can dynamically grow and shrink as it seets fit */
 }
