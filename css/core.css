@@ -55,8 +55,8 @@ footer>ul>li {
 
 .header-list-box {
     /* margin-top:auto; */
-    padding: 0.5rem 0.75rem 0.5rem 0.75rem;
-    margin-top: 0.5rem;
+    padding: 0.5rem;
+    margin: 0.5rem 0.25rem 0 0.25rem;
     height: 1rem;
     color:black;
 }
@@ -65,7 +65,18 @@ footer>ul>li {
     /* Now I do: the icon "centerline" is aligned to the topmost part. As such, to center it,
     it only needs half the margin to aim for that proper centerline.*/
     margin-top: 0.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
 } 
+
+.header-list-box.icon-padding:hover {
+    background-color: whitesmoke;
+    border-radius: 4rem;
+} 
+
+.header-list-box.header-list-box.icon-padding:active {
+    background-color: lightgray;
+}
 
 .sign-in {
     background-color: rgb(57, 143, 241);
