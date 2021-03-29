@@ -104,9 +104,19 @@ footer>ul>li {
     /* Another case of no clue why this value works fine for it's purpose*/
     /* It does give a good effect on resize, even if it is not pixxel perfect*/
     /* For now I'm quitting while I'm ahead*/
-    margin-top: 8.75rem; 
+    /* margin-top: 8.75rem;  */
     /* Probably this is a candidate to make another flex, with bottom weight so 
        so it can dynamically grow and shrink as it seets fit */
+    display: flex;
+    flex-direction: column;
+}
+
+.top-space {
+    flex-grow: 1;
+}
+
+.content {
+    flex-grow: 2;
 }
 
 .logo {
@@ -143,7 +153,8 @@ input#search_box:focus {
     background-color: white;
     border-radius: 2rem;
     min-width: 300px;
-    width: 45%;
+    max-width: 575px;
+    width: 90%;
     margin: auto;
     padding: 0.8rem;
     display: flex;
@@ -173,6 +184,8 @@ input#search_box:focus {
     background-color: whitesmoke;
     color: rgba(0, 0, 0, 0.7);
     border-top: 1px ridge lightgray;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
 
 
@@ -187,6 +200,7 @@ input#search_box:focus {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
+    /* margin-bottom: 1rem; */
 }
 
 .footer-space {
@@ -194,12 +208,14 @@ input#search_box:focus {
      easier in redimensioning the footer */
     height: 1rem;
     flex-grow: 1;
+    margin: 0.5rem 0;
 }
 
 .footer-flex-right {
     display: flex;
     flex-flow: row nowrap;
     justify-content: flex-end;
+
 }
 
 .footer-list-box {
@@ -234,6 +250,11 @@ input#search_box:focus {
     .footer-flex {
         flex-flow: row wrap;
     }
+
+    .footer-space {
+        margin: 0;
+    }
+
     .footer-list-box {
         padding: 0 0.5rem 0 0.5rem;
     }

@@ -32,3 +32,5 @@ Since it is a simple project, Github allowing publishing web projects do help tr
 	* [Readwrite's article "Github for beginners: Don't get scared, get started"](https://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1/) While it dates from 2013, compared to this document redaction date of 2021, it is stil filled with a lot of beginner's info and, more importantly, nomenglature and git specific commands, which helps to find what command do you want to use in a specific moment. Kinda like a supercharged cheatsheet.
 
 [You can check this website on github.io pages by clicking this link](https://llomellamomario.github.io/google-homepage/)
+
+Project should be fully done as of now, barring something I missed or a layout bug.
