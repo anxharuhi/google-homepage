@@ -142,7 +142,7 @@ input#search_box:focus {
     border-color: whitesmoke;
     background-color: white;
     border-radius: 2rem;
-    min-width: 350px;
+    min-width: 300px;
     width: 45%;
     margin: auto;
     padding: 0.8rem;
@@ -174,30 +174,13 @@ input#search_box:focus {
     color: rgba(0, 0, 0, 0.7);
     border-top: 1px ridge lightgray;
 }
-.footer-list-box>a {
-    color: rgba(0, 0, 0, 0.7);
-    padding-right: 1rem;
-}
 
-.footer-list-box>a:hover {
-    text-decoration: underline;
-}
-
-.footer-list-box>a:active {
-    color: rgb(233, 86, 41);
-}
 
 .footer-flex {
     display: flex;
     flex-flow: column wrap;
     justify-content: flex-end;
     align-items: center;
-}
-
-@media (min-width:700px) {
-    .footer-flex {
-        flex-flow: row wrap;
-    }
 }
 
 .footer-flex-left {
@@ -220,10 +203,38 @@ input#search_box:focus {
 }
 
 .footer-list-box {
-    padding: 0 0.5rem 0 0.5rem;
+    padding: 0 0.1rem;
+}
+
+.footer-list-box>a {
+    color: rgba(0, 0, 0, 0.7);
+    padding-right: 1rem;
+}
+
+.footer-list-box>a:hover {
+    text-decoration: underline;
+}
+
+.footer-list-box>a:active {
+    color: rgb(233, 86, 41);
+}
+
+.padding-fix>a {
+    padding-right: 0;
 }
 
 /* Material icons rules */
 .material-icons.md-18 { font-size: 18px;}
 .material-icons.md-18 { font-size: 24px;}
 .material-icons.md-box { padding: 0 0.5rem 0 0.5rem;}
+
+/* Media queries */
+
+@media (min-width:700px) {
+    .footer-flex {
+        flex-flow: row wrap;
+    }
+    .footer-list-box {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+}
