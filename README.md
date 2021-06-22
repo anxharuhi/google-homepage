@@ -1,6 +1,6 @@
 # Google Homepage (The Odin project proposed project)  
 ## About project  
-A reposiroty containing The Odin Project foundations exercise "Google homepage clone". The purpose of the exercise is to get the feet wet designing something relatively simple, but with enough moving parts. Their tip list and guide includes:  
+A repository containing The Odin Project foundations exercise "Google homepage clone". The purpose of the exercise is to get the feet wet designing something relatively simple, but with enough moving parts. Their tip list and guide includes:  
 #### Easy version (paraphrased):
 1. Tips:
 	* Don't be a perfectionist, it will be hard as it is to try to make a pixel perfect copy. For the same reason ignore dropdown menus, form submissions and hover-highlighting, though this last one shouldn't be too hard to do
